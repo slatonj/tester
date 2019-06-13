@@ -1,1 +1,23 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Radley&display=swap');
+
+
+body {
+    font-family:  'Radley', serif;    
+    background-image: image_url('dark_wood');
+    color: white;
+    }
+
+.navbar {
+    background: image_url('dark_wood');
+    box-shadow: 10px 10px, red;
+
+}
+
+.navbar-inverse .navbar-brand {
+  color: #aa0911;
+  font-family: 'Kumar One Outline', cursive;
+  font: size 26px;
+  
+}
