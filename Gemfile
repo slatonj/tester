@@ -26,7 +26,13 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'popper_js', '~> 1.14.3'
+gem "bootstrap", ">= 4.3.1"
+gem 'simple_form'
+gem 'jquery-rails'
+gem 'will_paginate-bootstrap'
+gem 'will_paginate', '~> 3.1.0'
+gem "font-awesome-rails"
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -60,3 +66,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+source 'https://rails-assets.org' do
+gem 'rails-assets-tether', '>1.3.3'
+end
