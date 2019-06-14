@@ -1,17 +1,19 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Radley&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
 
 body {
     font-family:  'Radley', serif;    
-    background-image: image_url('dark_wood');
-    color: white;
+    background-image: image_url('intersection');
+    
     }
 
 .navbar {
     background: image_url('dark_wood');
-    box-shadow: 10px 10px, red;
+    box-shadow: 2px 2px red;
+    
 
 }
 
@@ -20,4 +22,23 @@ body {
   font-family: 'Kumar One Outline', cursive;
   font: size 26px;
   
+}
+
+h1 {
+   font-family: 'Berkshire Swash', cursive;
+   text-shadow: 1px 1px red;
+   color: black;
+}
+
+.box {
+    float: center;
+    
+    width: 42.5%;
+    margin-left: 5%;
+    margin-top: 80px;
+  }
+
+p {
+    font-family: 'Kelly Slab', cursive;
+    color: black;
 }
