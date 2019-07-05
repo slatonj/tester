@@ -5,15 +5,15 @@
 @import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
 
 body {
-    font-family:  'Radley', serif;    
-    background-image: image_url('intersection');
-    
+    font-family:  'Radley', serif;
+    background-image: image_url('brushed_alu_dark');
+
     }
 
 .navbar {
     background: image_url('dark_wood');
     box-shadow: 2px 2px red;
-    
+
 
 }
 
@@ -21,7 +21,7 @@ body {
   color: #aa0911;
   font-family: 'Kumar One Outline', cursive;
   font: size 26px;
-  
+
 }
 
 h1 {
@@ -32,7 +32,7 @@ h1 {
 
 .box {
     float: center;
-    
+
     width: 42.5%;
     margin-left: 5%;
     margin-top: 80px;
@@ -41,4 +41,5 @@ h1 {
 p {
     font-family: 'Kelly Slab', cursive;
     color: black;
+    font-size: 15px;
 }
