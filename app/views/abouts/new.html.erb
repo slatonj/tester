@@ -1,0 +1,12 @@
+<div class="booyah-box col-5 offset-3">
+<h1>Enter Your Own favorite Movie</h1>
+
+<%= simple_form_for @about do |f| %>
+  <%= f.input :name %>
+  <%= f.input :year %>
+  <%= f.input :description %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+  <%= link_to 'back to home page', root_path  %>
+<% end %>
+</div>

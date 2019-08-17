@@ -1,0 +1,16 @@
+<div class="box col-sm-3 offset-1">
+<h1>Welcome to My New Web app</h1>
+
+
+<%= link_to 'Enter you Favor Movie', new_about_path, class: "links"  %>
+
+
+<% @about.each do |about| %>
+  <div>
+    <h2><%= about.name %></h2><br />
+    <i><%= about.year %></i><br />
+    <br />
+    <p><%= about.description %></p><br />
+  </div>
+  <% end %>
+</div>
